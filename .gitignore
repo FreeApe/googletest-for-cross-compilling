@@ -1,0 +1,12 @@
+# Ignore CI build directory
+build/
+build_*
+build-*
+
+*.swp
+*.bak
+*.tmp
+tmp
+tmp*
+
+
