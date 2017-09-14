@@ -51,6 +51,17 @@ Google test has been used on a variety of platforms:
   * Windows Mobile
   * Symbian
 
+## Cross Compilling ##
+
+```bash
+# the CMAKE_TOOLCHAIN_FILE is in the `platforms` directory.
+# build linux armv7
+mkdir build
+cmake .. -DCMAKE_TOOLCHAIN_FILE=platforms/Linux-armv7.cmake
+make -j
+make install
+```
+
 ## Who Is Using Google Test? ##
 
 In addition to many internal projects at Google, Google Test is also used by
